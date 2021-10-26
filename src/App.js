@@ -1,9 +1,12 @@
 import React from 'react'
-import Jumbotron from './components/jumbotron/index';
-const App = () => {
-  return <div>
 
-  </div>
+import Home from './pages/Home'
+const App = () => {
+  return (
+    <div>
+      <Home />
+    </div>
+  )
 }
 
 export default App
