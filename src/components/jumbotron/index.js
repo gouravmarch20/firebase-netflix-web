@@ -32,8 +32,8 @@ Jumbotron.Pane = function JumbotronPane ({ children, ...restProps }) {
 Jumbotron.Title = function JumbotronTitle ({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>
 }
-
-Jumbotron.SubTitle = function JumbotronSubTitle ({ children, ...restProps }) {
+// !TODO: THIS WAY VALID ALSO
+Jumbotron.SubTitle = ({ children, ...restProps }) => {
   return <SubTitle {...restProps}>{children}</SubTitle>
 }
 
