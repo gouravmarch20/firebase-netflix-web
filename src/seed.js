@@ -79,42 +79,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Comedies
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'The Office',
-  //     description:
-  //       'A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.',
-  //     genre: 'comedies',
-  //     maturity: '15',
-  //     slug: 'the-office'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Arrested Development',
-  //     description:
-  //       'The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud.',
-  //     genre: 'comedies',
-  //     maturity: '15',
-  //     slug: 'arrested-development'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Curb Your Enthusiasm',
-  //     description:
-  //       'Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles.',
-  //     genre: 'comedies',
-  //     maturity: '15',
-  //     slug: 'curb-your-enthusiasm'
-  //   })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'The Office',
+      description:
+        'A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.',
+      genre: 'comedies',
+      maturity: '15',
+      slug: 'the-office'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Arrested Development',
+      description:
+        'The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud.',
+      genre: 'comedies',
+      maturity: '15',
+      slug: 'arrested-development'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Curb Your Enthusiasm',
+      description:
+        'Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles.',
+      genre: 'comedies',
+      maturity: '15',
+      slug: 'curb-your-enthusiasm'
+    })
   // firebase
   //   .firestore()
   //   .collection('series')
@@ -142,41 +142,41 @@ export function seedDatabase (firebase) {
 
   // // Children
   // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Peppa Pig',
-  //     description:
-  //       'Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'peppa-pig'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Dora The Explorer',
-  //     description:
-  //       'Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'dora-the-explorer'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'PAW Patrol',
-  //     description:
-  //       'Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'paw-patrol'
-  //   })
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Peppa Pig',
+      description:
+        'Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'peppa-pig'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Dora The Explorer',
+      description:
+        'Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'dora-the-explorer'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'PAW Patrol',
+      description:
+        'Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'paw-patrol'
+    })
   // firebase
   //   .firestore()
   //   .collection('series')
@@ -203,42 +203,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Crime
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Making a Murderer',
-  //     description:
-  //       'Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest.',
-  //     genre: 'crime',
-  //     maturity: '18',
-  //     slug: 'making-a-murderer'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Long Shot',
-  //     description:
-  //       'An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show.',
-  //     genre: 'crime',
-  //     maturity: '18',
-  //     slug: 'long-shot'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('series')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'The Confession Killer',
-  //     description:
-  //       'Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998.',
-  //     genre: 'crime',
-  //     maturity: '18',
-  //     slug: 'the-confession-killer'
-  //   })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Making a Murderer',
+      description:
+        'Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest.',
+      genre: 'crime',
+      maturity: '18',
+      slug: 'making-a-murderer'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'Long Shot',
+      description:
+        'An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show.',
+      genre: 'crime',
+      maturity: '18',
+      slug: 'long-shot'
+    })
+  firebase
+    .firestore()
+    .collection('series')
+    .add({
+      id: getUUID(),
+      title: 'The Confession Killer',
+      description:
+        'Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998.',
+      genre: 'crime',
+      maturity: '18',
+      slug: 'the-confession-killer'
+    })
   // firebase
   //   .firestore()
   //   .collection('series')
@@ -329,42 +329,42 @@ export function seedDatabase (firebase) {
   // /* Films
   //   ============================================ */
   // // Drama
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'The Prestige',
-  //     description:
-  //       'Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences.',
-  //     genre: 'drama',
-  //     maturity: '15',
-  //     slug: 'the-prestige'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Fight Club',
-  //     description:
-  //       'Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.',
-  //     genre: 'drama',
-  //     maturity: '15',
-  //     slug: 'fight-club'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Kings Speech',
-  //     description:
-  //       'King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II.',
-  //     genre: 'drama',
-  //     maturity: '15',
-  //     slug: 'kings-speech'
-  //   })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'The Prestige',
+      description:
+        'Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences.',
+      genre: 'drama',
+      maturity: '15',
+      slug: 'the-prestige'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Fight Club',
+      description:
+        'Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.',
+      genre: 'drama',
+      maturity: '15',
+      slug: 'fight-club'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Kings Speech',
+      description:
+        'King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II.',
+      genre: 'drama',
+      maturity: '15',
+      slug: 'kings-speech'
+    })
   // firebase
   //   .firestore()
   //   .collection('films')
@@ -391,42 +391,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Suspense
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Shutter Island',
-  //     description:
-  //       'Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.',
-  //     genre: 'suspense',
-  //     maturity: '15',
-  //     slug: 'shutter-island'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Gone Girl',
-  //     description:
-  //       'Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary.',
-  //     genre: 'suspense',
-  //     maturity: '15',
-  //     slug: 'gone-girl'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Prisoners',
-  //     description:
-  //       "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.",
-  //     genre: 'suspense',
-  //     maturity: '15',
-  //     slug: 'prisoners'
-  //   })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Shutter Island',
+      description:
+        'Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.',
+      genre: 'suspense',
+      maturity: '15',
+      slug: 'shutter-island'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Gone Girl',
+      description:
+        'Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary.',
+      genre: 'suspense',
+      maturity: '15',
+      slug: 'gone-girl'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Prisoners',
+      description:
+        "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.",
+      genre: 'suspense',
+      maturity: '15',
+      slug: 'prisoners'
+    })
   // firebase
   //   .firestore()
   //   .collection('films')
@@ -453,42 +453,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Children
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Hotel Transylvania',
-  //     description:
-  //       'Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'hotel-transylvania'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Despicable Me',
-  //     description:
-  //       'Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'despicable-me'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Frozen',
-  //     description:
-  //       'Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice.',
-  //     genre: 'children',
-  //     maturity: '0',
-  //     slug: 'frozen'
-  //   })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Hotel Transylvania',
+      description:
+        'Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'hotel-transylvania'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Despicable Me',
+      description:
+        'Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'despicable-me'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Frozen',
+      description:
+        'Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice.',
+      genre: 'children',
+      maturity: '0',
+      slug: 'frozen'
+    })
   // firebase
   //   .firestore()
   //   .collection('films')
@@ -515,42 +515,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Thriller
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Joker',
-  //     description:
-  //       'Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.',
-  //     genre: 'thriller',
-  //     maturity: '15',
-  //     slug: 'joker'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'A Quiet Place',
-  //     description:
-  //       'The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',
-  //     genre: 'thriller',
-  //     maturity: '15',
-  //     slug: 'a-quiet-place'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Black Swan',
-  //     description:
-  //       'Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better.',
-  //     genre: 'thriller',
-  //     maturity: '15',
-  //     slug: 'black-swan'
-  //   })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Joker',
+      description:
+        'Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.',
+      genre: 'thriller',
+      maturity: '15',
+      slug: 'joker'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'A Quiet Place',
+      description:
+        'The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',
+      genre: 'thriller',
+      maturity: '15',
+      slug: 'a-quiet-place'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Black Swan',
+      description:
+        'Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better.',
+      genre: 'thriller',
+      maturity: '15',
+      slug: 'black-swan'
+    })
   // firebase
   //   .firestore()
   //   .collection('films')
@@ -577,42 +577,42 @@ export function seedDatabase (firebase) {
   //   })
 
   // // Romance
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'A Star Is Born',
-  //     description:
-  //       'After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.',
-  //     genre: 'romance',
-  //     maturity: '15',
-  //     slug: 'a-star-is-born'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'Blue Valentine',
-  //     description:
-  //       'Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship.',
-  //     genre: 'romance',
-  //     maturity: '15',
-  //     slug: 'blue-valentine'
-  //   })
-  // firebase
-  //   .firestore()
-  //   .collection('films')
-  //   .add({
-  //     id: getUUID(),
-  //     title: 'La La Land',
-  //     description:
-  //       'Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...',
-  //     genre: 'romance',
-  //     maturity: '15',
-  //     slug: 'la-la-land'
-  //   })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'A Star Is Born',
+      description:
+        'After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.',
+      genre: 'romance',
+      maturity: '15',
+      slug: 'a-star-is-born'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'Blue Valentine',
+      description:
+        'Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship.',
+      genre: 'romance',
+      maturity: '15',
+      slug: 'blue-valentine'
+    })
+  firebase
+    .firestore()
+    .collection('films')
+    .add({
+      id: getUUID(),
+      title: 'La La Land',
+      description:
+        'Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...',
+      genre: 'romance',
+      maturity: '15',
+      slug: 'la-la-land'
+    })
   // firebase
   //   .firestore()
   //   .collection('films')
